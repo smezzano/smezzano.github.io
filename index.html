@@ -12,16 +12,16 @@
 		let content = {
 			first_name: "Santiago", /* <- write your first name here */
 			last_name: "Mezzano", /* <- write your last name here */
-			position: "Research Methods: Collecting and Connecting Data", /* <- write your title here */
+			position: "Understanding Neurotechnology", /* <- write your title here */
 			email: "santimezzano@hotmail.com", /* <- write your email here */
 			allow_download_resume: false, /* <- write "false" if you want them to email you to ask for your resume or "true" if you want them to download your resume */
 			resume_path: "resume.pdf", /* if you wrote "true" above in "allow_download_resume", write here the filename of your resume */
-			phone: "+34653808711", /* <- write your phone number here */
+			phone: "+44 7442 172578", /* <- write your phone number here */
 			main_pic: "img/cutout.png", /* <- write the filepath to your header image here (shown later in tutorial) */
 			contact_pic: "", /* <- write the filepath to your contact section image here (shown later in tutorial) */
 			banner_emojis: "🧠🤓", /* write here some emojis that will go in the header */
 			/* write below a short description of you that will go in the bottom of the website */
-			aboutMe: "Optimizing corporate efficiency by understanding the brain. 2021 COVID Graduate from IE university in Madrid with a bachelor's in psychology, dilgent and enthusiastic about research and neuroscience and wellness"
+			aboutMe: "I help interpret and understand neuroscientific research"
 		}
 
 
@@ -36,12 +36,28 @@
 				section_description: "👉Click 👈the cards below 👇to learn more", /* <- write here an optional sub-description of the section (example: "here's some work I've done..") */
 				/* Below are the "cards" - these are the small square info cards for each section */
 				cards: [
+					
+					{
+						name: "Accenture",
+						image: "img/IMD.png",
+						url: "https://www.accenture.com/us-en",
+						description: "Business Research Analyst",
+						sub_description: "Analyzing and Interpreting business data to improve customer journey and experience in one of Accenture biggest clients",
+					},
+						{
+						name: "King's College London",
+						image: "img/IMD.png",
+						url: "https://www.accenture.com/us-en",
+						description: "Research Assistant",
+						sub_description: "Worked with KCL's science dissemination magazine "Inspire The Mind" whilst doing my final dissertation",
+					},
+					
 					{
 						name: "Nestle Panama", /* <- write here the name of the card (example: for a job it could be "Amazon") */
 						image: "img/Nestle-Logo.png", /* <- write the filepath to your card image (covered later in tutorial) or leave as "" if you don't have one */
 						url: "https://www.nestle-centroamerica.com/", /* <- write the url you would like to link (or leave as "") */
-						description: "Human Resources Intern", /*<- write here a description of the card */
-						sub_description: "Trained managers on how to use the new standarized and digitalized recruting system in Nestle Central America", /*<- write here a sub-description if you like (else leave it as "") */
+						description: "Change Management", /*<- write here a description of the card */
+						sub_description: "Trained managers on how to use the new standardised and digitalized recruiting system in Nestle Central America, found strategies to apply that change smoothly", /*<- write here a sub-description if you like (else leave it as "") */
 					},
 
 					/* 👇👇👇 These are all the same - change them similar to the one above */
@@ -57,7 +73,7 @@
 						image: "img/cropped-Logo-Alponics-Trans.png",
 						url: "https://alponics.com",
 						description: "Marketing Manager",
-						sub_description: "Developed and managed all social media content and sales strategies for new pharma grade CBD start up- was later hired for 2 yearsp",
+						sub_description: "Developed and managed all social media content and sales strategies for new pharma grade CBD start up- was later hired for 2 years part-time whilst studying",
 					},
 					/* 🔽 If you want to delete a card - just delete everything within curly braces (and the comma) so: "{...}," */
 					/*👇 For example delete the things between the pointers here 👇  (not including these comments) */
@@ -130,35 +146,60 @@
 						sub_description: "Managed a small burger delivery business targetted at university students in Segovia, Spain ",
 					},
 					{
-						name: "Empanada Business",
+						name: "Swiss Gauchos",
 						image: "",
 						url: "",
 						description: "Home made Argentinan Empanda Delivery Project",
-						sub_description: "For a social work trip to Croatia, I raised over 1,500 euros selling Empandas in Vaud, Switzerland",
+						sub_description: "Set up a business venture selling and delivering Argentinean pastries in Switzerland",
 					},
 				]
 			},
 			{
-				section_title: "Education",
-				emoji: "🏫 👨‍🎓 ",
-				section_description: "My academic journey ",
-				cards: [
+    "section_title": "Education",
+    "emoji": "🏫 👨‍🎓 ",
+    "section_description": "My academic journey ",
+    "cards": [
+        {
+            "name": "King's College London",
+            "image": "img/HL_logo_informal_2000x2000.png",
+            "url": "https://www.kcl.ac.uk/ioppn",
+            "description": "Cognitive Neuroscience MSc",
+            "sub_description": "Semester 1- Distinction"
+        },
+        {
+            "name": "IE university - Madrid Spain",
+            "image": "img/IE_University_logo.svg.png",
+            "url": "https://www.ie.edu/university/studies/academic-programs/bachelor-in-behavior-and-social-sciences/",
+            "description": "Bachlor in Psychology (2017-2021)",
+            "sub_description": "Graduated with a GPA more than 8 /10 and with an honors distinction award for my final thesis project"
+        },
+        {
+            "name": "UCL",
+            "image": "img/HL_logo_informal_2000x2000.png",
+            "url": "https://www.ucl.ac.uk/",
+            "description": "Medical Imaging Summer Program 2023"
+        },
+        {
+            "name": "Supervised Machine Learning: Regression and Classification",
+            "image": "img/HL_logo_informal_2000x2000.png",
+            "url": "https://www.deeplearning.ai/courses/",
+            "description": "1 month Machine Learning Python Course- 2023"
+        },
+        {
+            "name": "Neuroscience and Neuroimaging Specialization- John Hopkins University",
+            "image": "img/HL_logo_informal_2000x2000.png",
+            "url": "https://www.coursera.org/specializations/computational-neuroscience",
+            "description": "1 Month Course- Learnt about fMRI data design, structure and acquisition- 2022"
+        },
+        {
+            "name": "Haut Lac International School ",
+            "image": "img/HL_logo_informal_2000x2000.png",
+            "url": "https://haut-lac.ch/",
+            "description": "High School Graduate in Vevey Switzerland",
+            "sub_description": "Graduated with IB diploma with 36 points"
+        }
+    ]
 
-					{
-						name: "IE university - Madrid Spain",
-						image: "img/IE_University_logo.svg.png",
-						url: "https://www.ie.edu/university/studies/academic-programs/bachelor-in-behavior-and-social-sciences/",
-						description: "Bachlor in Psychology (2017-2021)",
-						sub_description: "Graduated with a GPA more than 8 /10 and with an honors distinction award for my final thesis project",
-					},
-					{
-						name: "Haut Lac International School ",
-						image: "img/HL_logo_informal_2000x2000.png",
-						url: "https://haut-lac.ch/",
-						description: "High School Graduate in Vevey Switzerland",
-						sub_description: "Graduated with IB diploma with 36 points",
-					},
-				]
 			},
 
 			/* what is in between these pointers 👆 to add/delete sections (not including these comments) */
